@@ -91,7 +91,7 @@ namespace scriptKiddieIDEditor
                 }
             }
             string path = Directory.GetCurrentDirectory();
-            System.Diagnostics.Process.Start(path+"\\"+"phantomTranspiler.exe");
+            System.Diagnostics.Process.Start(path+"\\"+"scriptKiddieTranspiler.exe");
             Thread.Sleep(2000);
             File.Delete(Path.Combine("temp.yaskc"));
         }
